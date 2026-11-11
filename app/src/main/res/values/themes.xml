@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compose Material3 ships no XML themes; the Activity theme only sets
+         window colors. The Compose CropcastTheme handles dark/light. -->
+    <style name="Theme.Cropcast" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/cropcast_background</item>
+        <item name="android:statusBarColor">@color/cropcast_background</item>
+        <item name="android:navigationBarColor">@color/cropcast_background</item>
+    </style>
+</resources>

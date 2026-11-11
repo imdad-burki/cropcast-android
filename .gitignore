@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Android Studio
+local.properties
+.idea/
+*.iml
+.DS_Store
+
+# Signing — never commit keystores or passwords
+*.keystore
+*.jks
+keystore.properties
+
+# Build outputs
+*.apk
+*.aab

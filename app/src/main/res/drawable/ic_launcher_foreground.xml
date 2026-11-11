@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Red recording dot -->
+    <path
+        android:fillColor="#FF453A"
+        android:pathData="M54,54m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0" />
+    <!-- White crop-corner marks -->
+    <path
+        android:fillColor="#F5F5F7"
+        android:pathData="M28,28h16v4H32v12h-4zM80,28H64v4h12v12h4zM28,80h4V68h12v-4H28zM80,80H64v-4h12V64h4z" />
+</vector>
